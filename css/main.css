@@ -1,106 +1,36 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-	font-size: 20px;
-	overflow: hidden;
-	
-}
-
-.sidebar {
-	position: fixed;
-	width: 200px;
-	height: 100%;
-	background: #333;
-	color: #FFF;
-	outline: 1px solid #FFF;
-}
-
-.sidebar h2 {
-	margin: 0;
-	padding: 35px;
-	background: #2A2A2A;
-}
-.sidebar h2:hover {
-	color: red;
-}
-
-.sidebar ul {
-	list-style: none;	
+*{
+	margin:0;
 	padding: 0;
-	margin: 0;
-}
-
-.sidebar a {
-	color: #FFF;
-	text-decoration: none;
-	display: block;
-	padding: 15px;
-	outline: 1px solid #2A2A2A;
-	transition: all 0.3s;
-}
-
-.sidebar a:hover {
-	background: #444;
-	border-left: 5px solid #EEE;
-}
-
-.contenido {
-	height: 600%;
-	position: absolute;
-	transition: all 0.3s;
 	box-sizing: border-box;
 }
-
-.menu-bar {
-	cursor: pointer;
+header nav{
+	margin-bottom: 0 !important;
 }
-
-.mostrar {
-	margin-left: 200px;
+.container-fluid{
+	
+	/*padding-right: 0 !important;*/
+	padding-left: 0 !important;
 }
-
-.padding{
-	padding: 4%;
-	font-size: 20px;
-	color: #24BECA;
-}
-
-/********** MIPORTADA ***********/
-
-#miPortada .logo{
+.container-fluid .portada{
 	background-image: url(../img/portada.png);
-    background-repeat: no-repeat;
-   	background-size: cover;
-    background-position: center;
-    height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 41em;
+    width: 100%;
+}
+.container-fluid .portada div{
+	padding-top: 18%;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
-#miPortada p{
-	font-family: 'Lobster Two', cursive;
-	text-align: center;
-	font-size: 21px;
-	color: #000000;
-}
-#miPortada .textoPortada{
-    padding-top: 23%;
-    padding-left: 6%;
+.foto img{
+	width: 100%;
+	border-radius: 50%;
 }
 
-/********** SOBREMI ***********/
-
-#sobreMi img{
-	border-radius: 5%;
-    border: 1px solid red;
-    margin-bottom: 20%;
-}
-
-#sobreMi .textoSobreMi{
-    text-align: justify;
-    padding: 0% 12%;
-}
 
 /********** PROYECTOS ***********/
+
 .trello {
     background-image: url(../img/trello.jpg);
 }
@@ -116,6 +46,7 @@ body {
 .system {
     background-image: url(../img/system.jpg);
 }
+
 .uno {
     width: 80%;
     background-position: center;
@@ -127,8 +58,9 @@ body {
     margin-top: 4%;
 }
 
-.opasity{
-	width: 20%;
-    height: 30%;
-    background: grey;
+.white{
+	color:white;
+}
+.x{
+	display: inline;
 }
