@@ -7,8 +7,6 @@ header nav{
 	margin-bottom: 0 !important;
 }
 .container-fluid{
-	
-	/*padding-right: 0 !important;*/
 	padding-left: 0 !important;
 }
 .container-fluid .portada{
@@ -18,16 +16,20 @@ header nav{
 	background-position: center;
 	height: 41em;
     width: 100%;
+    opacity: 0.7;
 }
 .container-fluid .portada div{
-	padding-top: 18%;
+	padding-top: 15%;
 }
 
 .foto img{
-	width: 100%;
+	width: 30%;
 	border-radius: 50%;
+	margin:3%;
 }
-
+.margin{
+	margin-bottom:8%;
+}
 
 /********** PROYECTOS ***********/
 
@@ -61,6 +63,10 @@ header nav{
 .white{
 	color:white;
 }
-.x{
-	display: inline;
+
+.portadaText{
+	color: black;
+	font-size: 50px;
+	font-family: 'Aclonica', sans-serif;
 }
+ 
