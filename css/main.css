@@ -3,32 +3,94 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 header nav{
 	margin-bottom: 0 !important;
 }
+
 .container-fluid{
 	padding-left: 0 !important;
 }
+
 .container-fluid .portada{
-	background-image: url(../img/portada.png);
+	background-image: url(../img/portada.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 41em;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
 }
+
 .container-fluid .portada div{
-	padding-top: 15%;
+	padding-top: 14%;
 }
 
 .foto img{
 	width: 30%;
 	border-radius: 50%;
+	
 	margin:3%;
 }
 .margin{
 	margin-bottom:8%;
+}
+
+.margin-top{
+	margin-top:8%;
+	font-weight: bold;
+}
+
+.font-size{
+	font-size: 19px;
+}
+
+.white{
+	color:white;
+}
+
+.padding{
+	padding-top: 52px;
+}
+.portadaText{
+	color: black;
+	font-size: 70px;
+	font-family: 'Hammersmith One', sans-serif;
+	text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+	font-weight: bold;
+
+}
+/********** HABILIDADES ***********/
+
+@-webkit-keyframes swing { 15% { 
+	-webkit-transform: translateX(5px); 
+	transform: translateX(5px); 
+	} 
+	30% { 
+		-webkit-transform: translateX(-5px); 
+		transform: translateX(-5px); 
+	} 
+	50% { 
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px); 
+	} 
+	65% { 
+		-webkit-transform: translateX(-3px); 
+		transform: translateX(-3px); 
+	} 
+	80% { 
+		-webkit-transform: translateX(2px); 
+		transform: translateX(2px); 
+	} 
+	100% { 
+		-webkit-transform: translateX(0); 
+		transform: translateX(0); 
+	} 
+} 
+@keyframes swing { 15% { -webkit-transform: translateX(5px); transform: translateX(5px); } 30% { -webkit-transform: translateX(-5px); transform: translateX(-5px); } 50% { -webkit-transform: translateX(3px); transform: translateX(3px); } 65% { -webkit-transform: translateX(-3px); transform: translateX(-3px); } 80% { -webkit-transform: translateX(2px); transform: translateX(2px); } 100% { -webkit-transform: translateX(0); transform: translateX(0); } } .swing:hover { -webkit-animation: swing 1s ease; animation: swing 1s ease; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+
+.circle:hover { 
+	border-radius:50%; 
 }
 
 /********** PROYECTOS ***********/
@@ -43,6 +105,10 @@ header nav{
 
 .portafolio {
     background-image: url(../img/portafolio.jpg);
+}
+
+.ecomunidad {
+    background-image: url(../img/ecomunidad.jpg);
 }
 
 .system {
@@ -60,13 +126,7 @@ header nav{
     margin-top: 4%;
 }
 
-.white{
-	color:white;
-}
 
-.portadaText{
-	color: black;
-	font-size: 50px;
-	font-family: 'Aclonica', sans-serif;
-}
- 
+
+
+
