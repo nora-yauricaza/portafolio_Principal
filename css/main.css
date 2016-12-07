@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 header nav{
 	margin-bottom: 0 !important;
 }
@@ -23,13 +22,12 @@ header nav{
 }
 
 .container-fluid .portada div{
-	padding-top: 14%;
+	padding-top: 18%;
 }
 
 .foto img{
 	width: 30%;
-	border-radius: 50%;
-	
+	border-radius: 50%;	
 	margin:3%;
 }
 .margin{
@@ -49,50 +47,96 @@ header nav{
 	color:white;
 }
 
-.padding{
+.padding-Proyectos{
 	padding-top: 52px;
 }
-.portadaText{
-	color: black;
-	font-size: 70px;
-	font-family: 'Hammersmith One', sans-serif;
-	text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
-	font-weight: bold;
 
+.portadaText {
+    color: black;
+    font-size: 70px;
+    font-family: 'Lemonada', cursive;
+    text-shadow: 5px 5px 0.1em #ffffff;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.15);
 }
+
+.frontText{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 3em;
+    color: black;
+    text-shadow: 5px 5px 0.1em #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+    margin-top: -10px;	
+}
+
+/*@media (max-width: 600px) {
+    .portadaText {
+    font-size: 2.8em;
+    text-shadow: 5px 5px 0.1em #ffffff;
+    }
+
+    .frontText {
+    font-size: 1.8em;
+    text-shadow: 5px 5px 0.2em #ffffff;
+    }
+
+    .container-fluid .portada div {
+    padding-top: 52%;
+}*/
 /********** HABILIDADES ***********/
 
-@-webkit-keyframes swing { 15% { 
-	-webkit-transform: translateX(5px); 
-	transform: translateX(5px); 
-	} 
-	30% { 
+@-webkit-keyframes swing { 
+	15% { 
+	    -webkit-transform: translateX(5px); 
+		transform: translateX(5px); 
+	} 30% { 
 		-webkit-transform: translateX(-5px); 
 		transform: translateX(-5px); 
-	} 
-	50% { 
+	} 50% { 
 		-webkit-transform: translateX(3px);
 		transform: translateX(3px); 
-	} 
-	65% { 
+	} 65% { 
 		-webkit-transform: translateX(-3px); 
 		transform: translateX(-3px); 
-	} 
-	80% { 
+	} 80% { 
 		-webkit-transform: translateX(2px); 
 		transform: translateX(2px); 
-	} 
-	100% { 
+	} 100% { 
 		-webkit-transform: translateX(0); 
 		transform: translateX(0); 
 	} 
 } 
-@keyframes swing { 15% { -webkit-transform: translateX(5px); transform: translateX(5px); } 30% { -webkit-transform: translateX(-5px); transform: translateX(-5px); } 50% { -webkit-transform: translateX(3px); transform: translateX(3px); } 65% { -webkit-transform: translateX(-3px); transform: translateX(-3px); } 80% { -webkit-transform: translateX(2px); transform: translateX(2px); } 100% { -webkit-transform: translateX(0); transform: translateX(0); } } .swing:hover { -webkit-animation: swing 1s ease; animation: swing 1s ease; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+@keyframes swing { 
+	15% { 
+	    -webkit-transform: translateX(5px); 
+	    transform: translateX(5px); 
+	} 30% { 
+		-webkit-transform: translateX(-5px); 
+		transform: translateX(-5px);
+	} 50% {
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	} 65% { 
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px); 
+	} 80% {
+	 -webkit-transform: translateX(2px); transform: translateX(2px); 
+	} 100% { -webkit-transform: translateX(0); transform: translateX(0); 
+	} } 
+	.swing:hover {
+	  -webkit-animation: swing 1s ease; animation: swing 1s ease; 
+	  -webkit-animation-iteration-count: 1; animation-iteration-count: 1; 
+	}
 
 .circle:hover { 
 	border-radius:50%; 
 }
 
+@media (max-width: 600px) {
+	.paddingBottom-Habilidades{
+	padding-bottom: 30px;
+	}
+}
 /********** PROYECTOS ***********/
 
 .trello {
